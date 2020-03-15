@@ -1,45 +1,33 @@
-html {
+html, body {
   margin: 0;
 }
 
 body {
-  margin: 0;
-  background-color: #f7f7f7;
+  position: relative;
+  background-color: #f4fff7;
 }
-/*   
-h1 {
-  color: #000000;
-  text-align: center;
-} */
 
-p {
-  font-family: verdana;
-  font-size: 20px;
-  color: deepskyblue;
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: "Vazir";
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 10px 0 10px 0;
+  background-color: #1A535C;
+  color: #FFFFFF;
+  direction: rtl;
+  text-align: center;
+  box-shadow: 0px 0px 5px 1px #646464;
 }
 
 .container1 {
+  background-color: #f4fff7;
   display: flex;
   flex-direction:column;
-}
-
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.headerLink {
-  font-family: Vazir;
-  font-size: 14px;
-  color: #FF6B6B;
-  text-decoration: none;
-  padding-left: 30px;
-}
-
-.headerLink:hover{
-  color: #1A535C;
-  text-decoration: none;
-  transition-duration:2s;
+  flex-wrap: nowrap;
 }
 
 .header {
@@ -48,39 +36,101 @@ p {
   top: 0;
   background-color: #FFFFFF;
   display: flex;
-  /* flex-direction: row; */
+  flex-wrap: nowrap;
   justify-content: space-between;
-  /* height: 29px; */
-  /* padding: 0%; */
-  /* box-shadow: 0 1px 10px 1px #c7c7c7; */
+  box-shadow: 0px 0px 3px 0px #646464;
+  align-items: center;
+  padding: 4px 0 4px 0;
+}
+
+.headerLeftSide {
+  display: flex;
+  justify-content: center;
+  flex-wrap:  wrap;
+}
+
+.headerLink {
+  font-family: "Vazir Thin";
+  font-weight: 350;
+  font-size: 15px;
+  color: #FF6B6B;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+.headerLink:hover{
+  color: #1A535C;
+  text-decoration: none;
+  transition-duration:2s;
 }
 
 .flaticon-smart-cart {
-  height: 50px;
-  width: 50px;
-  /* margin-left: 5px; */
-  /* margin-top: 30px; */
-  /* top: 30px; */
-  /* justify-self: left; */
-  /* align-self: ; */
   color: black;
-  /* margin-bottom: 25px; */
+  padding-left: 15px;
 }
 
 .LoghmeLogo {
   height: 35px;
   width: 35px;
-  margin-left: auto;
-  /* float: right; */
-  /* margin-right: 40px; */
-  margin-bottom: 4px;
-  margin-top: 4px;
-  /* padding-right: 22px; */
-  /* right: 27px; */
+  float: right;
+  margin-right: 40px;
 }
 
 .infoBar {
   height: 125px;
+  font-family: "Vazir";
+  flex-wrap: wrap;
   padding: 0;
   background-color: #FF6B6B;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.infoBarUserDetails {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+  direction: rtl;
+  padding: 30px 0 30px 40px;
+}
+
+.infoBarDetailData {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Vazir";
+  font-weight: lighter;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.infoBarUsername {
+  display: flex;
+  flex-wrap: nowrap;
+  direction: rtl;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Vazir";
+  padding-right: 50px;
+  font-size: 23px;
+  color: #FFFFFF;
+}
+
+.infoBarUsername div{
+  font-weight: bold;
+}
+
+
+/* 
+
+.UserLogo {
+  padding: 2px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+

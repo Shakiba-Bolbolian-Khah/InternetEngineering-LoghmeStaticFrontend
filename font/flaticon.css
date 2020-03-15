@@ -25,21 +25,33 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
 }
 
 .flaticon-plus:before { content: "\f100"; }
 .flaticon-minus:before { content: "\f101"; }
-.flaticon-account:before { content: "\f102"; }
+.flaticon-account:before { 
+  content: "\f102"; 
+  font-size: 45px;
+  padding-left: 12px;
+}
 .flaticon-smart-cart:before {  
+  content: "\f103";
+  font-size: 20px;
   display: inline-block;
   vertical-align: middle;
   height: 100%;
-  padding-top: 6px;
-  /* padding-bottom: 7px; */
-  content: "\f103";
 }
-.flaticon-card:before { content: "\f104"; }
-.flaticon-mail:before { content: "\f105"; }
-.flaticon-phone:before { content: "\f106"; }
+.flaticon-card:before { 
+  content: "\f104";
+  padding: 0px 0px 0px 12px;
+}
+.flaticon-mail:before { 
+  content: "\f105"; 
+  padding: 0px 0px 0px 8px;
+}
+.flaticon-phone:before { 
+  content: "\f106"; 
+  padding: 0px 0px 0px 15px;
+}
