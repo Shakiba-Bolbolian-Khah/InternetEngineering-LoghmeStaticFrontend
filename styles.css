@@ -1,0 +1,74 @@
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+}
+/*   
+h1 {
+  color: #000000;
+  text-align: center;
+} */
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: deepskyblue;
+}
+
+.container1 {
+  display: flex;
+  flex-direction:column;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container1 a {
+  font-family: Vazir;
+  color: #FF6B6B;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.container1 a:hover{
+  color: #1A535C;
+  text-decoration: none;
+  transition-duration:2s;
+}
+
+.header {
+  /* height: 29px; */
+  /* padding: 0%; */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #FFFFFF;
+}
+
+.flaticon-smart-cart {
+  height: 18px;
+  width: 18px;
+  /* margin-left: 5px; */
+}
+
+.LoghmeLogo {
+  height: 23px;
+  width: 23px;
+  float: right;
+  /* padding-right: 22px; */
+  /* right: 27px; */
+  margin-right: 30px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.infoBar {
+  height: 88px;
+  padding: 0;
+  background-color: #FF6B6B;
+}
