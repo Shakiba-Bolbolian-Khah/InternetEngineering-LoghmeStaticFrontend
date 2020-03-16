@@ -37,8 +37,6 @@ body {
   position: sticky;
   top: 0;
   background-color: #FFFFFF;
-  /* display: flex; */
-  /* flex-wrap: nowrap; */
   justify-content: space-between;
   box-shadow: 0px 0px 3px 0px #646464;
   align-items: center;
@@ -152,7 +150,7 @@ body {
   transition-duration:0.5s;
 }
 
-.increaseButton, .orderButton {
+.increaseButtonOrder, .orderButtonOrder, .increaseButtonCart, .orderButtonCart{
   text-align: center;
   font-size: 17px;
   width: 208px;
@@ -160,16 +158,20 @@ body {
   box-shadow: 0px 2px 5px 0px #9c9c9c;
 }
 
-.increaseButton{
+.increaseButtonOrder, .orderButtonCart{
   font-weight:lighter;
   color: #000000;
   background-color: #FFFFFF;
 }
 
-.orderButton{
+.orderButtonOrder, .increaseButtonCart{
   font-weight: bold;
   background-color: #FF6B6B;
   color: #FFFFFF;
+}
+
+.orderButtonCart, .orderButtonOrder{
+  border-left: 1px dashed #7c7c7c;
 }
 
 .dataContainer {
@@ -197,7 +199,6 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-
 
 .deliveringState, .deliveredState, .searchingState{
   font-family: Vazir;
@@ -228,4 +229,60 @@ body {
   background-color: #C8FFFD;
   color: #247F78;
 }
+
+.increaseSection {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.increaseField {
+  margin-top: 55px;
+  font-family: Vazir;
+  margin-right: 30px;
+  margin-left: 40px;
+  border-radius: 10px;
+  text-align: left;
+  direction: rtl;
+}
+
+.formControl {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d3d3d3;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background-color: #F1F1F1;
+  color: #8C8C8C; 
+}
+
+.increaseButton {
+  margin-top: 55px;
+  background-color: #4ecdc4;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 7px 15px 7px 15px;
+  font-family: Vazir;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  width: 135px;
+  margin-left: 30px;
+}
+
+.increaseButtn a:hover {
+  text-decoration: none;
+  color: #1A535C;
+  transition-duration:0.5s;
+}
+
 /* Restaurant Page */
