@@ -32,7 +32,6 @@ html, body {
 }
 
 .header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 15;
@@ -51,7 +50,7 @@ html, body {
 
 .exit, .userProfile {
   font-family: "Vazir Thin";
-  font-weight: 350;
+  font-weight: 400;
   font-size: 15px;
   text-decoration: none;
 }
