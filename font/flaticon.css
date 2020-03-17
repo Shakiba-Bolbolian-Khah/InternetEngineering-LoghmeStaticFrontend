@@ -29,8 +29,14 @@
   font-style: normal;
 }
 
-.flaticon-plus:before { content: "\f100"; }
-.flaticon-minus:before { content: "\f101"; }
+.flaticon-plus:before {
+  content: "\f100";
+  font-size: 10px;
+}
+.flaticon-minus:before {
+  content: "\f101";
+  font-size: 10px;
+}
 .flaticon-account:before { 
   content: "\f102"; 
   font-size: 45px;
