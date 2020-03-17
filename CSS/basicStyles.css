@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.bg{
+  background-color: #F7FFF7;
+}
+
+.loghmeContainer {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  position: relative;
+  min-height: 100%;
+}
