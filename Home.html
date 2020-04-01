@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Restaurant page</title>
+        <title>Home page</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./CSS/Normalize.css">
@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="./CSS/footerStyles.css">
         <link rel="stylesheet" href="./CSS/infoBarStyles.css">
         <link rel="stylesheet" href="./CSS/restaurantStyles.css">
+        <link rel="stylesheet" href="./CSS/homeSearchBar.css">
+        <link rel="stylesheet" href="./CSS/homePageStyles.css">
         <link rel="stylesheet" type="text/css" href="./media/FlatIcon/font/flaticon.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     </head>
@@ -23,18 +25,43 @@
                         <i class="flaticon-smart-cart"></i>
                     </a>
                 </div>
-                <a href="./Home.html">
-                    <img class="LoghmeLogo" src="./media/Pics/LOGO.png" alt="logo">
-                </a>
             </div>
-            <div class="row infoBar"></div>
+            <div class="row searchBarBg">
+                <div class="searchBarEffect">
+                </div>
+            </div>
+            <div class="row searchBarContents">
+                <div class="col-12 justify-content-center">
+                    <div class="row justify-content-center">
+                        <img class="Loghme borderShadow" src="./media/Pics/LOGO.png" alt="logo">
+                    </div>
+                    <div class="row LoghmeDescribe justify-content-center">
+                        اولین و بزرگ&zwnj;ترین وب&zwnj;سایت سفارش آنلاین غذا در دانشگاه تهران
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6 pl-0 pr-0 searchArea borderShadow rounded text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-4 pl-0 pr-0">
+                                    <input type="text" class="inputDesign text-center" placeholder="نــــام غـــذا" name="credit">
+                                </div>
+                                <div class="col-4 pl-0 pr-0 text-center">
+                                    <input type="text" class="inputDesign text-center" placeholder="نــــام رســـتـــوران" name="credit">
+                                </div>
+                                <div class="col-3 pl-0 pr-0 text-center">
+                                    44
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <img class="restaurantLogo borderShadow" src="./media/Pics/McDonalds.PNG">
-            </div>
-            <div class="row justify-content-center">
+            </div> -->
+            <!-- <div class="row justify-content-center">
                 <div class="restaurantName">رستوران خامس</div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div class="col-8 menuTextAlign justify-content-center">
@@ -54,7 +81,7 @@
                                 <div class="col-auto starIcon text-right">&starf;</div>
                             </div>
                             <div class="price pl-0">۳۹۰۰۰ تومان</div>
-                            <button class="addToCartButton btn rounded" type="submit">افزودن به سبد خرید</button>
+                            <div class="addToCartButton rounded">افزودن به سبد خرید</div>
                         </div>
                         <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
                             <img class="foodLogo" src="./media/Pics/pizza.jfif">
@@ -64,7 +91,7 @@
                                 <div class="col-auto starIcon text-right">&starf;</div>
                             </div>
                             <div class="price pl-0">۲۹۰۰۰ تومان</div>
-                            <div class="dontHave rounded">ناموجود</div>
+                            <div class="dontHaveButton rounded">ناموجود</div>
                         </div>
                         <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
                             <img class="foodLogo" src="./media/Pics/pizza.jfif">
@@ -74,39 +101,7 @@
                                 <div class="col-auto starIcon text-right">&starf;</div>
                             </div>
                             <div class="price pl-0">۳۹۰۰۰ تومان</div>
-                            <button class="addToCartButton btn rounded" type="submit">افزودن به سبد خرید</button>
-                        </div>
-                    </div>
-                    <div class="row menuContents justify-content-end">
-                        <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
-                            <img class="foodLogo" src="./media/Pics/pizza.jfif">
-                            <div class="row no-gutters text-center foodInfo justify-content-center">
-                                <div class="col-auto foodName">پیتزا اعلا</div>
-                                <div class="col-auto foodRate">۵</div>
-                                <div class="col-auto starIcon text-right">&starf;</div>
-                            </div>
-                            <div class="price pl-0">۳۹۰۰۰ تومان</div>
-                            <button class="addToCartButton btn rounded" type="submit">افزودن به سبد خرید</button>
-                        </div>
-                        <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
-                            <img class="foodLogo" src="./media/Pics/pizza.jfif">
-                            <div class="row no-gutters text-center foodInfo justify-content-center">
-                                <div class="col-auto foodName">پیتزا اعلا</div>
-                                <div class="col-auto foodRate">۵</div>
-                                <div class="col-auto starIcon text-right">&starf;</div>
-                            </div>
-                            <div class="price pl-0">۳۹۰۰۰ تومان</div>
-                            <button class="addToCartButton btn rounded" type="submit">افزودن به سبد خرید</button>
-                        </div>
-                        <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
-                            <img class="foodLogo" src="./media/Pics/pizza.jfif">
-                            <div class="row no-gutters text-center foodInfo justify-content-center">
-                                <div class="col-auto foodName">پیتزا اعلا</div>
-                                <div class="col-auto foodRate">۵</div>
-                                <div class="col-auto starIcon text-right">&starf;</div>
-                            </div>
-                            <div class="price pl-0">۳۹۰۰۰ تومان</div>
-                            <button class="addToCartButton btn rounded" type="submit">افزودن به سبد خرید</button>
+                            <div class="addToCartButton rounded">افزودن به سبد خرید</div>
                         </div>
                     </div>
                     <div class="row menuContents justify-content-end">
@@ -118,7 +113,7 @@
                                 <div class="col-auto starIcon text-right">&starf;</div>
                             </div>
                             <div class="price pl-0">۳۹۰۰۰ تومان</div>
-                            <button class="addToCartButton btn rounded" type="submit">افزودن به سبد خرید</button>
+                            <div class="addToCartButton rounded">افزودن به سبد خرید</div>
                         </div>
                         <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
                             <img class="foodLogo" src="./media/Pics/pizza.jfif">
@@ -128,7 +123,39 @@
                                 <div class="col-auto starIcon text-right">&starf;</div>
                             </div>
                             <div class="price pl-0">۳۹۰۰۰ تومان</div>
-                            <button class="addToCartButton btn rounded" type="submit">افزودن به سبد خرید</button>
+                            <div class="addToCartButton rounded">افزودن به سبد خرید</div>
+                        </div>
+                        <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
+                            <img class="foodLogo" src="./media/Pics/pizza.jfif">
+                            <div class="row no-gutters text-center foodInfo justify-content-center">
+                                <div class="col-auto foodName">پیتزا اعلا</div>
+                                <div class="col-auto foodRate">۵</div>
+                                <div class="col-auto starIcon text-right">&starf;</div>
+                            </div>
+                            <div class="price pl-0">۳۹۰۰۰ تومان</div>
+                            <div class="addToCartButton rounded">افزودن به سبد خرید</div>
+                        </div>
+                    </div>
+                    <div class="row menuContents justify-content-end">
+                        <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
+                            <img class="foodLogo" src="./media/Pics/pizza.jfif">
+                            <div class="row no-gutters text-center foodInfo justify-content-center">
+                                <div class="col-auto foodName">پیتزا اعلا</div>
+                                <div class="col-auto foodRate">۵</div>
+                                <div class="col-auto starIcon text-right">&starf;</div>
+                            </div>
+                            <div class="price pl-0">۳۹۰۰۰ تومان</div>
+                            <div class="addToCartButton rounded">افزودن به سبد خرید</div>
+                        </div>
+                        <div class="col-3 menuItem pl-0 pr-0 text-center borderShadow">
+                            <img class="foodLogo" src="./media/Pics/pizza.jfif">
+                            <div class="row no-gutters text-center foodInfo justify-content-center">
+                                <div class="col-auto foodName">پیتزا اعلا</div>
+                                <div class="col-auto foodRate">۵</div>
+                                <div class="col-auto starIcon text-right">&starf;</div>
+                            </div>
+                            <div class="price pl-0">۳۹۰۰۰ تومان</div>
+                            <div class="addToCartButton rounded">افزودن به سبد خرید</div>
                         </div>
                     </div>
                 </div>
@@ -163,9 +190,7 @@
                         <div class="totalPriceValue">۱۰۷۰۰۰ تومان</div>
                     </div>
                     <div class="row justify-content-center">
-                        <button class="col-6 pl-1 pr-1 text-center btn submitButton" type="submit">
-                            تایید نهایی
-                        </button>
+                        <div class="col-6 pl-1 pr-1 text-center submitButton">تایید نهایی</div>
                     </div>
                 </div>
             </div>

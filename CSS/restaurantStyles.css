@@ -1,7 +1,3 @@
-.borderShadow {
-    box-shadow: 0px 0px 4px -1px #3b3a3a;
-}
-  
 .userProfile {
     color: #5f5e5e;
     padding: 5px 0 0 22px;
@@ -216,31 +212,31 @@
 }
 
 .submitButton {
-    margin-top: 3px;
-    margin-bottom: 3px;
-    background-color: #4ecdc4;
-    color: #FFFFFF;
-    font-size: 14px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-family: Vazir;
-    font-weight: normal;
-    border-radius: 5px;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    background-color: #4ecdc4 !important;
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    font-family: Vazir !important;
+    font-weight: normal !important;
+    border-radius: 5px !important;
 }
 
 .addToCartButton {
-    font-family: "Vazir Thin";
-    font-size: 9.5px;
-    margin-top: 9px;
-    margin-left: 13px;
-    margin-right: 13px;
-    margin-bottom: 4px;
-    padding: 2px 6px 2px 6px;
-    background-color: #FFE66D;
-    color: #2f2f2f;
+    font-family: "Vazir Thin" !important;
+    font-size: 9.5px !important;
+    margin-top: 9px !important;
+    margin-left: 13px !important;
+    margin-right: 13px !important;
+    margin-bottom: 4px !important;
+    padding: 2px 6px 2px 6px !important;
+    background-color: #FFE66D !important;
+    color: #2f2f2f !important;
 }
 
-.dontHaveButton {
+.dontHave {
     font-family: "Vazir Thin";
     font-size: 9.5px;
     margin-top: 9px;
