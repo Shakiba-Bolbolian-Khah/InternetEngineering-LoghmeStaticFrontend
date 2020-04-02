@@ -133,3 +133,15 @@ input[type="submit"]:focus{
     display: flex;
     justify-items: center;
 }
+
+.alreadyDone{
+    color : white;
+    direction: rtl;
+    font-size: 12px;
+}
+
+.alreadyDone:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
