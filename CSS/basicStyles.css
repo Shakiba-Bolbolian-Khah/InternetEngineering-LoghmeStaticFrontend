@@ -20,15 +20,6 @@ html, body {
   padding: 5px 0 0 22px;
 }
 
-.foodLogo {
-  width: 53px;
-  height: 53px;
-  object-position: right;
-  object-fit: cover;
-  margin-top: 5px;
-  border-radius: 7px;
-}
-
 .starIcon {
   padding-top: 2px;
   font-weight: bold;

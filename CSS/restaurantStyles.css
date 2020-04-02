@@ -64,6 +64,15 @@
     margin-right: 10px;
 }
   
+.foodLogo {
+    width: 53px;
+    height: 53px;
+    object-position: right;
+    object-fit: cover;
+    margin-top: 5px;
+    border-radius: 7px;
+  }
+  
 .foodInfo {
     margin-top: 3px;
 }
