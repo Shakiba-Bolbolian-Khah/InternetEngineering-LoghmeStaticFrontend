@@ -1,0 +1,102 @@
+.titles {
+    font-weight: bold;
+    font-family: Vazir;
+    font-size: 23px;
+    color: #1A535C;
+    direction: rtl;
+}
+
+.titlesUnderline {
+    border-bottom: 1.5px solid #1A535C;
+}
+
+.remainingTimeBox {
+    direction: rtl;
+    font-weight: normal;
+    font-family: Vazir;
+    font-size: 8px;
+    border: 0.5px solid #1A535C;
+    background-color: #F2FDFF;
+    color: #1A535C;
+    padding: 5px 10px 3px 7px;
+    margin-top: 8px;
+}
+
+.foodPartyMenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.partyFoodInfo {
+    display: inline-block;
+    direction: rtl;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    border: 5px solid #ffffff;
+    flex-direction: column;
+    border-radius: 4px;
+    font-family: Vazir;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.partyFoodName{
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    padding: 10px 7px 0px 3px !important;
+}
+
+.partyFoodRate {
+    font-weight: normal;
+    font-size: 9px;
+    color: #000000;
+    padding-top: 3px;
+    margin-left: 3px;
+}
+
+.restaurants {
+    font-weight: bold;
+    font-family: Vazir;
+    margin-top: 15px;
+}
+
+.restaurantInfo {
+    direction: rtl;
+    background-color: #FFFFFF;
+    border: 5px solid #ffffff;
+    flex-direction: column;
+    border-radius: 4px;
+    font-family: Vazir;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.restaurantSmallLogo {
+    width: 72px;
+    height: 72px;
+    object-position: right;
+    object-fit: cover;
+    margin-top: 8px;
+    border-radius: 7px;
+}
+
+.restaurantSmallName {
+    font-weight: bold;
+    font-size: 9.5px;
+    color: #000000;
+}
+
+.showMenuButton {
+    font-family: "Vazir" !important;
+    font-size: 9.5px !important;
+    margin-top: 9px !important;
+    margin-left: 13px !important;
+    margin-right: 13px !important;
+    margin-bottom: 4px !important;
+    padding: 2px 6px 2px 6px !important;
+    background-color: #FFE66D !important;
+    color: #1f1f1f !important;
+}
